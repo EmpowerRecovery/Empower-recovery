@@ -16,9 +16,9 @@ let Footer = () => {
                 <div className='footer__socials'>
                     <h4>Empower Recovery</h4>
                     <div className='footer__socials--logos'>
-                        <a><FontAwesomeIcon icon={ faFacebook } /></a>
-                        <a><FontAwesomeIcon icon={ faInstagram } /></a>
-                        <a><FontAwesomeIcon icon={ faTwitter } /></a>
+                        <a href="https://google.com"><FontAwesomeIcon icon={ faFacebook } /></a>
+                        <a href="https://google.com"><FontAwesomeIcon icon={ faInstagram } /></a>
+                        <a href="https://google.com"><FontAwesomeIcon icon={ faTwitter } /></a>
                     </div>
                 </div>
             </div>
