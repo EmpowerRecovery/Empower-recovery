@@ -1,0 +1,48 @@
+.footer{
+    display: flex;
+    margin: 4em 0 3em;
+    justify-content: space-evenly;
+
+    img{
+        height: 10em;
+        width: 10em;
+    }
+    & > div > h4 {
+        margin: .5em 0 1em;
+        & > p {
+            margin: .25em 0;
+        }
+    }
+
+    &__contact{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 8em;
+    }
+
+    &__socials{
+        height: 8em;
+
+        &--logos{
+            width: 15em;
+            display: flex;
+            justify-content: space-evenly;
+
+            & > a{
+                color: $orange;
+                & svg{
+                    height: 2em;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    width: 100%;
+    & > p {
+        font-size: .5em;
+        margin-bottom: 5em;
+    }
+}

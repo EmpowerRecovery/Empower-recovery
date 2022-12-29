@@ -1,0 +1,20 @@
+.header{
+    background-color: white;
+    width: 27%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    border-radius: 0 0 0 150px;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(243,152,51,1) 100%);
+    display:flex;
+    justify-content: flex-end;
+
+    &__logo{
+
+        &--img{
+            padding: 1.5em;
+            width: 10em;
+        }
+    }
+}
