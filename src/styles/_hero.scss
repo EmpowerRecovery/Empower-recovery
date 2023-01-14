@@ -1,0 +1,12 @@
+.hero{
+    background: white;
+
+    &__image{
+        width: 100%;
+        min-width: 300px;
+        
+        @include response(tab-port){
+            opacity: .7;
+        }
+    }
+}

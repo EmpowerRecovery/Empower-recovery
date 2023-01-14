@@ -1,13 +1,15 @@
 @import "variables";
+@import "mixins";
 @import "abstract";
 @import "base";
-@import "footer";
+@import "hero";
 @import "header";
+@import "main";
+@import "footer";
 
 .App {
   text-align: center;
   position: relative;
   height: 100%;
   width: 100%;
-  // font-family: Brandon-Grostesque, serif;
 }
