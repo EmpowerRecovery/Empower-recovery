@@ -11,8 +11,6 @@ export default function Main() {
           <h1>Empower Recovery</h1>
         </div>
         <h4>One of the Denver Metro's premiere tranistional sober living facilities.</h4>
-        <hr/>
-        <hr/>
       </div>
       <div className="main__description-container">
         <img id="main-hiking" src={Hiking} alt="Four guys hiking empowering each other to finish the hike."/>

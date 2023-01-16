@@ -4,12 +4,17 @@
     justify-content: space-evenly;
     
     @include response(tab-port){
-        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
     }
 
     img{
-        height: 10em;
-        width: 10em;
+        height: 10rem;
+        width: 10rem;
+        @include response(tab-port){
+            height: 5rem;
+            width: 5rem;
+        }
     }
     & > div > h4 {
         margin: .5em 0 1em;
@@ -27,6 +32,9 @@
 
     &__socials{
         height: 8em;
+        @include response(tab-port){
+            display: none;
+        }
 
         &--logos{
             width: 15em;
@@ -45,8 +53,12 @@
 
 footer{
     width: 100%;
+    padding: 5em 0;
+    @include response(tab-port){
+        padding: 2em;
+    }
+
     & > p {
         font-size: .5em;
-        margin-bottom: 5em;
     }
 }
