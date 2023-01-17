@@ -14,6 +14,7 @@
         @include response(tab-port){
             height: 5rem;
             width: 5rem;
+            margin-bottom: 1rem;
         }
     }
     & > div > h4 {
@@ -55,7 +56,7 @@ footer{
     width: 100%;
     padding: 5em 0;
     @include response(tab-port){
-        padding: 2em;
+        padding: 0em 2em 2em;
     }
 
     & > p {

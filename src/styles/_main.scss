@@ -1,10 +1,13 @@
 .main{
-    margin: 5rem 0;
+    margin: 4rem 0 5rem;
     @include response(tab-port){
-        margin: 3rem 0;
+        margin: 3rem 0 0;
     }
 
     &__header{
+        @include response(tab-port){
+            margin: 2rem 0;
+        }
 
         &__title{
             font-size: 2rem;
@@ -22,14 +25,16 @@
     }
     
     &__description-container{
-        margin: 5rem 0;
+        margin: 5rem 3rem 0;
         display: flex;
         justify-content: space-evenly;
+        
         @include response(tab-port){
             margin: 0;
             flex-direction: column-reverse;
         }
         &__description{
+            max-width: 500px;
             margin: 3rem;
             & p {
                 text-align: left;
@@ -38,11 +43,19 @@
         
     }
 
+    &__benefits-container{
+        background: $orange;
+    }
+
     &__benefits{
         width: 100%;
-        padding: 4rem 3rem;
+        padding: 7rem 3rem;
         max-width: 950px;
         margin: 3rem auto;
+
+        @include response(tab-port){
+            margin: 0 auto;
+        }
 
         &--list{
             text-align: left;
@@ -51,14 +64,33 @@
 
             & li{
                 margin: 1rem 0;
+                color: white;
             }
+            & li span  {
+                color: black;
+              }
+
         }
     }
 }
 
 #main-hiking{
-    width: 50%;
+    border-radius: 100%;
+    width: 45vw;
+    height: 45vw;
+    object-fit: cover;
+    max-height: 600px;
+    max-width: 600px;
+    
     @include response(tab-port){
+        border-radius: 0;
         width: 100%;
+        max-width: 100%;
+        height: auto;
     }
+}
+
+#call-us{
+    border: solid 2px;
+    border-radius: 3px;
 }
