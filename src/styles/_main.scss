@@ -1,5 +1,5 @@
 .main{
-    margin: 4rem 0 5rem;
+    margin: 6rem 0 5rem;
     @include response(tab-port){
         margin: 3rem 0 0;
     }
@@ -14,9 +14,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            white-space: nowrap;
             @include response(tab-port){
                 font-size: 1rem;
-                white-space: nowrap;
             }
             & img{
                 height: 5rem;
@@ -33,10 +33,16 @@
             margin: 0;
             flex-direction: column-reverse;
         }
+
+        & h3 {
+            margin: 0.5rem 0 1rem;
+        }
+
         &__description{
-            max-width: 500px;
+            max-width: 550px;
             margin: 3rem;
             & p {
+                padding-left: 25px;
                 text-align: left;
             }
         }
@@ -52,6 +58,7 @@
         padding: 7rem 3rem;
         max-width: 950px;
         margin: 3rem auto;
+        font-size: 1.2rem;
 
         @include response(tab-port){
             margin: 0 auto;
@@ -90,7 +97,7 @@
     }
 }
 
-#call-us{
-    border: solid 2px;
-    border-radius: 3px;
+#phone{
+    font-size: 1.15rem;
+    margin: 1px 10px 0px 0px;
 }

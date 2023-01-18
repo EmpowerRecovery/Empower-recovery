@@ -43,3 +43,32 @@ html {
         font-size: 70%;
     }
 }
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $orange;
+    border:  2px solid $orange;
+    border-radius: 30px;
+    margin: 2rem auto;
+    padding: 1rem 3rem;
+    width: fit-content;
+    transition: all .27s;
+}
+
+a {
+    text-decoration: none;
+    
+    &:link{
+        color: white;
+    }
+    &:visited{
+        
+    }
+    &:hover{
+        background-color: white;
+        color: $orange;
+    }
+
+}
