@@ -1,8 +1,7 @@
-import React, { Suspense, lazy } from 'react'
+import React from 'react'
 import Hiking from '../assets/images/FourGuysHiking.jpg';
 import LogoNoText from '../assets/images/logo-no-background-no-text.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faPhone } from '@fortawesome/free-regular-svg-icons'
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 export default function Main() {
