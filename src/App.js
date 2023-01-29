@@ -1,5 +1,4 @@
-import React, { Suspense, lazy } from 'react';
-// import Footer from './components/Footer';
+import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Main from './components/Main';
