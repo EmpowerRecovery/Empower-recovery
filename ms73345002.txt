@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "empowerrecoveryhomes.com",
+  "Id": "68253d8e-0ffe-491c-a7f7-a54c56b22a0f"
+}
