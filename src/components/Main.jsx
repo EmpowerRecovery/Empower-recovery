@@ -36,7 +36,7 @@ export default function Main() {
           <li><span>Provides structure which can be helpful during the transition between treatment and independent living</span></li>
           <li><span>Community of like minded peers provide support and feedback</span></li>
           <li><span>Accountability of residents by requiring to stay substance free</span></li>
-          <li><span>People who live in a sober environment after treatment are less likely to relapse than people who don’t</span></li>
+          <li><span>People who live in a sober environment after treatment are less likely to experience recurring use than people who do not</span></li>
           <li><span>Maintain momentum after discharging from rehab</span></li>
         </ul>
       </div>
